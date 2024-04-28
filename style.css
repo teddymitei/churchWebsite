@@ -56,12 +56,12 @@ header ul.nav li:first-child {
 header ul.nav li:last-child {
 	margin-right: 0;
 }
-@media(max-width:1000px) {
+@media only screen and (max-width: 700px) {
 	header {
 		padding: 20px 50px;
 	}
 }
-@media (max-width:700px) {
+@media only screen and (max-width: 700px) {
 	header {
 		flex-direction: column;
 	}
@@ -88,12 +88,12 @@ section {
 	padding: 110px 100px;
 	color: #000;
 }
-@media (max-width:1000px) {
+@media only screen and (max-width: 700px) {
 	section {
 		padding: 100px 50px;
 	}
 }
-@media (max-width:600px) {
+@media only screen and (max-width: 700px) {
 	section {
 		padding: 125px 30px;
 	}
@@ -153,7 +153,7 @@ section p {
 	background: #bf0a30;
 	text-transform: uppercase;
 }
-@media (max-width:800px) {
+@media only screen and (max-width: 700px) {
 	.banner-area {
 		min-height: 600px;
 	}
@@ -222,7 +222,7 @@ ul.about-content {
 	text-transform: uppercase;
 	color: #fff;
 }
-@media (max-width: 1000px) {
+@media only screen and (max-width: 700px) {
 	.section-title {
 		font-size: 35px;
 	}
@@ -276,7 +276,7 @@ ul.services-content {
 .services-content li p {
 	margin: 0;
 }
-@media (max-width:1000px) {
+@media only screen and (max-width: 700px) {
 	.services-content li {
 		flex-basis: 100%;
 		margin-bottom: 65px;
@@ -313,7 +313,7 @@ ul.contact-content {
 .contact-content li p {
 	margin: 0;
 }
-@media (max-width: 1000px) {
+@media only screen and (max-width: 700px) {
 	.contact-content li {
 		flex-basis: 100%;
 		margin-bottom: 65px;
