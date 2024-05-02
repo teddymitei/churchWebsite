@@ -11,7 +11,9 @@
 <body>
 	<header>
 		<h2><a href="#"><img alt="" src="images/logo.png"></a></h2>
-		<ul class="nav">
+		<img src="images/menu.png" id="menuIcon">
+		<div class="menu-box" id="menuBox">
+		<ul>
 			<li>
 				<a href="#">Home</a>
 			</li>
@@ -25,6 +27,7 @@
 				<a href="#contact">Contact</a>
 			</li>
 		</ul>
+	    </div>
 	</header>
     <section class="banner-area">
 		<div class="banner-img"></div>
@@ -94,5 +97,27 @@
 	<footer>
 		<p>All Right Reserved by Your Website</p>
 	</footer>
+
+	<script>
+
+        let menuBox = document.getElementById("menuBox");
+        let menuIcon = document.getElementById("menuIcon");
+
+        menuIcon.onclick = function()
+        {
+            menuBox.classList.toggle("open-menu");
+
+            if(menuBox.classList.contains("open-menu"))
+            {
+                menuIcon.src = "images/close.png";
+            }
+            else
+            {
+                menuIcon.src = "images/menu.png";
+            }
+        }
+        
+
+    </script>
 </body>
 </html>
